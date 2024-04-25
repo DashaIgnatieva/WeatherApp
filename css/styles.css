@@ -1,0 +1,117 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*Header start*/
+header {
+    background-image: linear-gradient(90deg, #F9D176, #70D9AE, #5FC1EC);
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+form.take-сity {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+form.take-сity > input, button {
+    margin: 0;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+input {
+    border: none;
+    width: 200px;
+    padding: 0 10px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(219, 70, 102);
+    width: 100px;
+    border: none;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: rgb(184, 57, 85);;
+}
+/*Header end*/
+
+/*Карточка погоды start*/
+.weather-card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgb(126, 163, 160);
+    border-radius: 5px;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+p {
+    margin: 0;
+}
+
+.сity {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.temperature {
+    font-size: 4rem;
+}
+
+.deg {
+    font-size: 2rem;
+}
+
+.additional-information {
+    font-size: 0.9rem;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+}
+/*Карточка погоды end*/

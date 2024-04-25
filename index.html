@@ -7,12 +7,33 @@
     <meta name="keywords" content="погода, прогноз погоды, узнать погоду, погода в">
     <meta name="description" content="Браузерное приложение для показа прогноза погоды">
 
+    <link rel="icon" href="assets/img/sun.png">
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Прогноз погоды</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Прогноз Погоды</h1>
+            <form class="take-сity" action="">
+                <input type="text" placeholder="Введите название города">
+                <button>Показать</button>
+            </form>
+        </header>
+        <main>
+            <section class="weather-card">
+                <diw class="info">
+                    <p class="сity">Город</p>
+                    <p class="temperature">11<span class="deg">&deg;с</span></p>
+                    <p class="additional-information">Облачно</p>
+                </diw>
+                <div class="img">
+                    <img src="assets/img/sun.png" alt="sun">
+                </div>
+            </section>
+        </main>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
